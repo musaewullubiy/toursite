@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div>
+    <link href="{{ url_for('static', filename='css/block1.css') }}" rel="stylesheet"/>
+
+    <div class="block1-container">
+        <div class="block1-block1">
+            <img
+                    src="{{ url_for('static', filename='img/image769-ylzj-300w.png') }}"
+                    alt="image769"
+                    class="block1-image"
+            />
+            <span class="block1-text">
+            <span>Добропожаловать в Kunaktour</span>
+          </span>
+            <span class="block1-text2">
+            <span>
+              Мы проведем вас по ущельям к живописным водопадам, здесь среди
+              вечных скал, вы прочувствуете медленное течение времени...
+            </span>
+          </span>
+        </div>
+    </div>
+</div>
+<div>
+    <link href="{{ url_for('static', filename='css/block2.css') }}" rel="stylesheet"/>
+
+    <div class="frame1-container">
+        <div class="frame1-frame1">
+            <img
+                    src="{{ url_for('static', filename='img/arrow2873-snml.svg') }}"
+                    alt="Arrow2873"
+                    class="frame1-arrow2"
+            />
+            <img
+                    src="{{ url_for('static', filename='img/arrow3874-7b0v.svg') }}"
+                    alt="Arrow3874"
+                    class="frame1-arrow3"
+            />
+            <div class="frame1-group30">
+                <span class="frame1-text"><span>Туры</span></span>
+                <img
+                        src="{{ url_for('static', filename='img/rectangle68877-96t4-200h.png') }}"
+                        alt="Rectangle68877"
+                        class="frame1-rectangle68"
+                />
+            </div>
+            <div class="frame1-slide1">
+                <span class="frame1-text02"><span>ЦЕНА:3000Р</span></span>
+                <span class="frame1-text04">
+              <span>
+                <span>ПРИЗРАЧНОЕ СЕЛО</span>
+                <br/>
+                <span></span>
+              </span>
+            </span>
+                <span class="frame1-text09">
+              <span>
+                When it comes to sunny days, nothing beats a T-shirt dress for
+                throw-on-and-go simplicity. We've given ours extra oomph with a
+                sophisticated boat neck so it'll look just as good on the beach
+                as at weekend brunch with the girls.
+              </span>
+            </span>
+                <span class="frame1-text11"><span>Гамсутль</span></span>
+                <img
+                        src="{{ url_for('static', filename='img/image884-5lq77-400h.png') }}"
+                        alt="image884"
+                        class="frame1-image"
+                />
+                <img
+                        src="{{ url_for('static', filename='img/image885-cs8o-200h.png') }}"
+                        alt="image885"
+                        class="frame1-image1"
+                />
+                <img
+                        src="{{ url_for('static', filename='img/image886-f2kr-200h.png') }}"
+                        alt="image886"
+                        class="frame1-image2"
+                />
+                <div class="frame1-button">
+                    <img
+                            src="{{ url_for('static', filename='img/rectangle80888-mf7-200h.png') }}"
+                            alt="Rectangle80888"
+                            class="frame1-rectangle80"
+                    />
+                    <span class="frame1-text13"><span>ПОДРОБНЕЕ</span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

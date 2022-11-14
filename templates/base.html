@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+  </head>
+  <body>
+    <div>
+      <link href="{{ url_for('static', filename='css/main-header.css') }}" rel="stylesheet" />
+
+      <div class="main-header-container">
+        <div class="main-header-main-header">
+          <div class="main-header-headernavigations">
+            <div class="main-header-button">
+              <img
+                src="{{ url_for('static', filename='img/rectangle8225-vd6a-200h.png') }}"
+                alt="Rectangle8225"
+                class="main-header-rectangle82"
+              />
+              <span class="main-header-text"><span>Туры</span></span>
+            </div>
+            <div class="main-header-button1">
+              <img
+                src="{{ url_for('static', filename='img/rectangle8328-7te-200h.png') }}"
+                alt="Rectangle8328"
+                class="main-header-rectangle83"
+              />
+              <span class="main-header-text2"><span>Экскурсии</span></span>
+            </div>
+            <div class="main-header-button2">
+              <img
+                src="{{ url_for('static', filename='img/rectangle84211-bvj-200h.png') }}"
+                alt="Rectangle84211"
+                class="main-header-rectangle84"
+              />
+              <span class="main-header-text4"><span>Гостевой дом</span></span>
+            </div>
+            <div class="main-header-button3">
+              <img
+                src="{{ url_for('static', filename='img/rectangle85214-zsht-200h.png') }}"
+                alt="Rectangle85214"
+                class="main-header-rectangle85"
+              />
+              <span class="main-header-text6"><span>О нас</span></span>
+            </div>
+          </div>
+          <img
+            src="{{ url_for('static', filename='img/image216-lgbuf-200h.png') }}"
+            alt="image216"
+            class="main-header-image"
+          />
+        </div>
+      </div>
+      <main role="main" class="container">
+        {% block content %}{% endblock %}
+      </main>
+    </div>
+    <footer>
+      <link href="{{ url_for('static', filename='css/footer.css') }}" rel="stylesheet" />
+
+      <div class="group29-container">
+        <div class="group29-group29">
+          <div class="group29-footerabout">
+            <span class="group29-text"><span>КунакТур</span></span>
+            <span class="group29-text02">
+              <span>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </span>
+            </span>
+            <div class="group29-button">
+              <img
+                src="{{ url_for('static', filename='img/rectangle46523-pbtl-200h.png') }}"
+                alt="Rectangle46523"
+                class="group29-rectangle46"
+              />
+              <span class="group29-text04"><span>Vk</span></span>
+            </div>
+            <div class="group29-button1">
+              <img
+                src="{{ url_for('static', filename='img/rectangle47526-wbr6-200h.png') }}"
+                alt="Rectangle47526"
+                class="group29-rectangle47"
+              />
+              <span class="group29-text06"><span>Inst</span></span>
+            </div>
+            <div class="group29-group20">
+              <span class="group29-text08">
+                <span>Created with love by omen616</span>
+              </span>
+              <img
+                src="{{ url_for('static', filename='img/line17530-bc4.svg') }}"
+                alt="Line17530"
+                class="group29-line17"
+              />
+            </div>
+          </div>
+          <div class="group29-contactinfo">
+            <span class="group29-text10"><span>Контакты</span></span>
+            <span class="group29-text12">
+              <span class="group29-text13">Телефон:</span>
+              <span>1234567890</span>
+            </span>
+            <span class="group29-text15">
+              <span class="group29-text16">Email:</span>
+              <span>company@email.com</span>
+            </span>
+            <span class="group29-text18">
+              <span class="group29-text19">
+                <span>Адресс:</span>
+                <br />
+                <span></span>
+              </span>
+              <span>
+                Россия, Республика Дагестан, городской округ Махачкала,
+                микрорайон Караман-7, улица Хайрутдина Гаджиева, 71
+              </span>
+            </span>
+          </div>
+          <div class="group29-large-map">
+            <div class="group29-map">
+              <img
+                src="{{ url_for('static', filename='img/mapplaceholder2x2539-kwl-900w.png') }}"
+                alt="MapPlaceholder2x2539"
+                class="group29-map-placeholder2x2"
+              />
+            </div>
+            <div class="group29-locationpointer">
+              <img
+                src="{{ url_for('static', filename='img/lovationmarker541-91r9.svg') }}"
+                alt="LovationMArker541"
+                class="group29-lovation-m-arker"
+              />
+              <img
+                src="{{ url_for('static', filename='img/ellipse8542-m1q-200w.png') }}"
+                alt="Ellipse8542"
+                class="group29-ellipse8"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>

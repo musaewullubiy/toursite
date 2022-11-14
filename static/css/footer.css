@@ -1,0 +1,382 @@
+.group29-container {
+  min-height: 100vh;
+}
+.group29-group29 {
+  width: 1200px;
+  height: 496px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(249, 249, 249, 1);
+}
+.group29-footerabout {
+  top: 69px;
+  left: 0px;
+  width: 1200px;
+  height: 405.0163879394531px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.group29-text {
+  left: 61px;
+  color: rgba(0, 0, 0, 1);
+  width: 270px;
+  height: auto;
+  position: absolute;
+  font-size: 64px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.group29-text02 {
+  top: 96px;
+  left: 61px;
+  color: rgba(154, 154, 154, 1);
+  width: 336px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.group29-button {
+  top: 179.15380859375px;
+  left: 61px;
+  width: 151.3762664794922px;
+  height: 44.353214263916016px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.group29-rectangle46 {
+  top: 0px;
+  left: 0.2781982421875px;
+  width: 151px;
+  height: 44px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 6px;
+}
+.group29-text04 {
+  top: 13.666107177734375px;
+  color: rgba(72, 72, 72, 1);
+  width: 151px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.group29-button1 {
+  top: 179.09375px;
+  left: 223.79644775390625px;
+  width: 151.2035369873047px;
+  height: 44.353214263916016px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.group29-rectangle47 {
+  top: 0px;
+  left: 0px;
+  width: 151px;
+  height: 44px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 6px;
+}
+.group29-text06 {
+  top: 13.726165771484375px;
+  left: 0.20355224609375px;
+  color: rgba(72, 72, 72, 1);
+  width: 151px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.group29-group20 {
+  top: 337px;
+  left: 0px;
+  width: 1200px;
+  height: 68.01639556884766px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.group29-text08 {
+  top: 26.990447998046875px;
+  left: 2px;
+  color: rgba(72, 72, 72, 1);
+  width: 237px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: right;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.group29-line17 {
+  top: 0px;
+  left: 0px;
+  width: 1200px;
+  height: 0px;
+  position: absolute;
+}
+.group29-contactinfo {
+  top: 89px;
+  left: 471px;
+  width: 261px;
+  height: 233.67672729492188px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.group29-text10 {
+  color: rgba(72, 72, 72, 1);
+  width: 136px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  align-self: auto;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.group29-text12 {
+  top: 32.184814453125px;
+  left: 0.167083740234375px;
+  color: rgba(72, 72, 72, 1);
+  width: 143px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.group29-text13 {
+  font-weight: 600;
+}
+.group29-text15 {
+  top: 78.86175537109375px;
+  left: 0.167083740234375px;
+  color: rgba(72, 72, 72, 1);
+  width: 214px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.group29-text16 {
+  font-weight: 600;
+}
+.group29-text18 {
+  top: 127.87347412109375px;
+  color: rgba(72, 72, 72, 1);
+  width: 261px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.group29-text19 {
+  font-weight: 600;
+}
+.group29-large-map {
+  top: 78px;
+  left: 765px;
+  width: 400px;
+  height: 245.07493591308594px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.group29-map {
+  top: 6px;
+  left: -1px;
+  width: 771px;
+  height: 420px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(196, 196, 196, 1);
+}
+.group29-map-placeholder2x2 {
+  top: -13px;
+  left: -37px;
+  width: 845px;
+  height: 447px;
+  position: absolute;
+  border-color: transparent;
+}
+.group29-locationpointer {
+  top: 74.78813171386719px;
+  left: 204.15585327148438px;
+  width: 233.84414672851562px;
+  height: 100.21186828613281px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.group29-lovation-m-arker {
+  top: 0px;
+  left: 0px;
+  width: 27px;
+  height: 38px;
+  position: absolute;
+}
+.group29-ellipse8 {
+  top: 62.21186447143555px;
+  left: 195.84414672851562px;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  border-color: transparent;
+}
